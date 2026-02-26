@@ -1,4 +1,4 @@
-namespace TextAnalize
+Ôªønamespace TextAnalize
 {
     public partial class Form1 : Form
     {
@@ -43,7 +43,7 @@ namespace TextAnalize
             label9.Text = wordCount.ToString();
             int vowelCount = 0;
             foreach (char c in text)
-                if ("aeiouAEIOU‡ÂËÓÛ˙¿≈»Œ”⁄".Contains(c)) vowelCount++;
+                if ("aeiouAEIOU–∞–µ–∏–æ—É—ä–ê–ï–ò–û–£–™".Contains(c)) vowelCount++;
             label10.Text = vowelCount.ToString();
             int upper = 0, lower = 0;
             foreach (char c in text)
@@ -52,9 +52,9 @@ namespace TextAnalize
                 if (char.IsLower(c)) lower++;
             }
             if (radioButton1.Checked)
-                label11.Text = $"√À¿¬Õ» ¡” ¬»: {upper.ToString()}";
+                label11.Text = $"–ì–õ–ê–í–ù–ò –ë–£–ö–í–ò: {upper.ToString()}";
             if (radioButton2.Checked)
-                label11.Text = $"Ï‡ÎÍË ·ÛÍ‚Ë: {lower.ToString()}";
+                label11.Text = $"–º–∞–ª–∫–∏ –±—É–∫–≤–∏: {lower.ToString()}";
             if (checkBox2.Checked)
             {
                 int wordCapitalize = 0;
