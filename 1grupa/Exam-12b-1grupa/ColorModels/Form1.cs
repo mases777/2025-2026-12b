@@ -1,4 +1,4 @@
-namespace ColorModels
+Ôªønamespace ColorModels
 {
     public partial class Form1 : Form
     {
@@ -21,7 +21,7 @@ namespace ColorModels
             string hexG = green.ToString("X2");
             string hexB = blue.ToString("X2");
             hexCode = $"#{hexR}{hexG}{hexB}";
-            label5.Text = $"HEX ÍÓ‰\n{hexCode}";
+            label5.Text = $"HEX –∫–æ–¥\n{hexCode}";
             double perceivedBrightness = (red * 0.299) + (green * 0.587) + (blue * 0.114);
             if (perceivedBrightness < 128)
             {
@@ -33,7 +33,7 @@ namespace ColorModels
                 label5.ForeColor = Color.Black;
                 label6.ForeColor = Color.Black;
             }
-            label6.Text = (perceivedBrightness < 128) ? "œÓ‚ÂÍ‡\r\nÁ‡ ˜ÂÚÎË‚ÓÒÚ\r\n“˙ÏÂÌ ÙÓÌ\r\n(¡ˇÎ ÚÂÍÒÚ)" : "œÓ‚ÂÍ‡\r\nÁ‡ ˜ÂÚÎË‚ÓÒÚ\r\n—‚ÂÚ˙Î ÙÓÌ\r\n(◊ÂÂÌ ÚÂÍÒÚ)";
+            label6.Text = (perceivedBrightness < 128) ? "–ü—Ä–æ–≤–µ—Ä–∫–∞\r\n–∑–∞ —á–µ—Ç–ª–∏–≤–æ—Å—Ç\r\n–¢—ä–º–µ–Ω —Ñ–æ–Ω\r\n(–ë—è–ª —Ç–µ–∫—Å—Ç)" : "–ü—Ä–æ–≤–µ—Ä–∫–∞\r\n–∑–∞ —á–µ—Ç–ª–∏–≤–æ—Å—Ç\r\n–°–≤–µ—Ç—ä–ª —Ñ–æ–Ω\r\n(–ß–µ—Ä–µ–Ω —Ç–µ–∫—Å—Ç)";
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -46,8 +46,8 @@ namespace ColorModels
             trackBar1.Value = 0;
             trackBar2.Value = 0;
             trackBar3.Value = 0;
-            label5.Text = "HEX ÍÓ‰";
-            label6.Text = "œÓ‚ÂÍ‡\r\nÁ‡ ˜ÂÚÎË‚ÓÒÚ";
+            label5.Text = "HEX –∫–æ–¥";
+            label6.Text = "–ü—Ä–æ–≤–µ—Ä–∫–∞\r\n–∑–∞ —á–µ—Ç–ª–∏–≤–æ—Å—Ç";
             label5.ForeColor = Color.Black;
             label6.ForeColor = Color.Black;
             label7.Text = "0";
